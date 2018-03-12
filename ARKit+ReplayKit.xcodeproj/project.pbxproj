@@ -15,6 +15,7 @@
 		20D34F462056029C000049E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D34F442056029C000049E9 /* LaunchScreen.storyboard */; };
 		20D34F512056029C000049E9 /* ARKit_ReplayKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D34F502056029C000049E9 /* ARKit_ReplayKitTests.swift */; };
 		20D34F5C2056029D000049E9 /* ARKit_ReplayKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D34F5B2056029D000049E9 /* ARKit_ReplayKitUITests.swift */; };
+		20D34F6C20561838000049E9 /* HiddenStatusBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D34F6B20561838000049E9 /* HiddenStatusBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		20D34F572056029D000049E9 /* ARKit+ReplayKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit+ReplayKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D34F5B2056029D000049E9 /* ARKit_ReplayKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_ReplayKitUITests.swift; sourceTree = "<group>"; };
 		20D34F5D2056029D000049E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20D34F6B20561838000049E9 /* HiddenStatusBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenStatusBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				20D34F392056029C000049E9 /* AppDelegate.swift */,
 				20D34F3B2056029C000049E9 /* art.scnassets */,
 				20D34F3D2056029C000049E9 /* ViewController.swift */,
+				20D34F6B20561838000049E9 /* HiddenStatusBarViewController.swift */,
 				20D34F3F2056029C000049E9 /* Main.storyboard */,
 				20D34F422056029C000049E9 /* Assets.xcassets */,
 				20D34F442056029C000049E9 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20D34F3E2056029C000049E9 /* ViewController.swift in Sources */,
+				20D34F6C20561838000049E9 /* HiddenStatusBarViewController.swift in Sources */,
 				20D34F3A2056029C000049E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
