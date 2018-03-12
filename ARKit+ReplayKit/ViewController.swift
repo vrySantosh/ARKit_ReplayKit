@@ -9,8 +9,9 @@
 import UIKit
 import SceneKit
 import ARKit
+import ReplayKit
 
-class ViewController: UIViewController, ARSCNViewDelegate {
+class ViewController: UIViewController, ARSCNViewDelegate, RPPreviewViewControllerDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
     
